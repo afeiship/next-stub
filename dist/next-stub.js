@@ -1,6 +1,14 @@
+/*!
+ * name: @feizheng/next-stub
+ * url: https://github.com/afeiship/next-stub
+ * version: 1.0.0
+ * date: 2019-11-25T13:17:57.661Z
+ * license: MIT
+ */
+
 (function() {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('next-js-core2');
+  var nx = global.nx || require('@feizheng/next-js-core2');
   var RETURN_THEN = { then: nx.noop };
 
   nx.stubString = function() {
@@ -43,3 +51,5 @@
     };
   }
 })();
+
+//# sourceMappingURL=next-stub.js.map

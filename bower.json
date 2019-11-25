@@ -1,7 +1,7 @@
 {
   "name": "next-stub",
   "version": "0.0.1",
-  "description": "Stub code for next",
+  "description": "nextBoilerplatePackageDescription",
   "main": "dist/next-stub.js",
   "authors": [
     "afei"

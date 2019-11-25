@@ -1,12 +1,11 @@
 # next-stub
-> Stub code for next
+> Stub code for next.
 
-## install:
+## installation
 ```bash
-npm install -S afeiship/next-stub --registry=https://registry.npm.taobao.org
+npm install -S @feizheng/next-stub
 ```
-
-## apis:
+## apis
 | api           | description               |
 |---------------|---------------------------|
 | nx.stubString | Stub empty and new string |
@@ -16,3 +15,10 @@ npm install -S afeiship/next-stub --registry=https://registry.npm.taobao.org
 | nx.stubFalse  | Stub false                |
 | nx.stubValue  | Stub empty and new value  |
 | nx.stubThen   | Stub empty and new then   |
+
+## usage
+```js
+import '@feizheng/next-stub';
+
+//DOCS here!
+```
