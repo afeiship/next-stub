@@ -3,7 +3,7 @@
  * description: Stub code for next.
  * homepage: https://github.com/afeiship/next-stub
  * version: 1.0.0
- * date: 2020-11-20 18:42:11
+ * date: 2020-11-20 18:42:53
  * license: MIT
  */
 
