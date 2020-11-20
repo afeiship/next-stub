@@ -6,11 +6,6 @@
 [![size][size-image]][size-url]
 [![download][download-image]][download-url]
 
-## installation
-```bash
-npm install -S @feizheng/next-stub
-```
-
 ## apis
 | api           | description               |
 |---------------|---------------------------|
@@ -23,20 +18,24 @@ npm install -S @feizheng/next-stub
 ```js
 import '@feizheng/next-stub';
 
-//DOCS here!
+nx.stubStirng();
+nx.stubArray();
+nx.stubObject();
+nx.stubThen();
 ```
+
 
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-stub/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/next-stub
-[version-url]: https://npmjs.org/package/@feizheng/next-stub
+[version-image]: https://img.shields.io/npm/v/@jswork/next-stub
+[version-url]: https://npmjs.org/package/@jswork/next-stub
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/next-stub
+[license-image]: https://img.shields.io/npm/l/@jswork/next-stub
 [license-url]: https://github.com/afeiship/next-stub/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-stub
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-stub
 [size-url]: https://github.com/afeiship/next-stub/blob/master/dist/next-stub.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/next-stub
-[download-url]: https://www.npmjs.com/package/@feizheng/next-stub
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-stub
+[download-url]: https://www.npmjs.com/package/@jswork/next-stub

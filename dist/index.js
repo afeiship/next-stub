@@ -1,15 +1,15 @@
 /*!
- * name: @feizheng/next-stub
+ * name: @jswork/next-stub
  * description: Stub code for next.
  * homepage: https://github.com/afeiship/next-stub
- * version: 1.1.1
- * date: 2020-07-08T12:11:43.397Z
+ * version: 1.0.0
+ * date: 2020-11-20 18:42:11
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var RETURN_THEN = { then: nx.noop };
 
   nx.stubString = function () {
